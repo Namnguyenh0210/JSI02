@@ -1,0 +1,100 @@
+.trangchusp {
+  display: flex;
+  gap: 10px;
+  font-size: 9px;
+  margin-left: 110px;
+  margin-top: 20px;
+}
+
+.trangchusp a {
+  text-decoration: none;
+  color: hsla(0, 0%, 40%, 0.7);
+}
+
+.trangchusp a:hover {
+  color: #353535;
+}
+
+table {
+  border-collapse: collapse;
+  margin-left: 110px;
+  margin-top: 40px;
+  border: 1px solid rgba(197, 185, 185, 0.211);
+}
+
+table td:hover {
+  background-color: #cf2e2e;
+}
+
+table tr > td {
+  padding: 10px 140px 10px 20px;
+}
+
+.CATEGORIES {
+  background-color: #b30c0c;
+  border-radius: 10px 10px 0 0;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: white;
+}
+
+.productsp {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding-left: 410px;
+  padding-right: 100px;
+  gap: 20px;
+  margin-bottom: 50px;
+  margin-top: -770px;
+}
+
+.spitem img {
+  height: 220px;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
+  transition: 1s ease;
+}
+
+.spitem:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 1s ease;
+}
+
+.spitem {
+  box-shadow: 1px 5px 5px 2px whitesmoke;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  
+}
+
+.spitem a {
+  text-decoration: none;
+  /* color: #353535; */
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  margin-top: 15px;
+
+  padding-left: 15px;
+}
+
+.spitem p {
+  padding-left: 15px;
+  font-size: 17px;
+  color: #b30c0c;
+}
+.cart-icon-btn{
+    cursor: pointer;
+margin-left: 200px;
+height: 50px;
+width: 50px;
+margin-top: -50px;
+
+
+}
+
+

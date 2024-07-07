@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+table {
+  width: 87%;
+  margin-left: 100px;
+  
+  border-collapse: collapse;
+  margin-top: 40px;
+
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+td img {
+  width: 100px;
+  height: auto;
+  height: 100%;
+  object-fit: cover;
+}
+
+.quantity-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  width: 100px;
+  justify-content: space-between;
+  
+}
+
+.quantity-btn {
+  background: none;
+  border: none;
+  padding: 0 10px;
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+.quantity-input {
+  width: 40px;
+  text-align: center;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+}
+
+.cart-item img {
+  margin-right: 10px;
+}
+#cartItems{
+    border-radius: 30px;
+    border: 1px solid red;
+}
+.cart-item-info {
+  flex: 1;
+}
+
+.remove-btn {
+  background: none;
+  border: none;
+  color: red;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.cart-total {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: right;
+  margin-top: 20px;
+
+}
+

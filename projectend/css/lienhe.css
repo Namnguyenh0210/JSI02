@@ -1,0 +1,69 @@
+.map {
+    margin-left: 100px;
+    margin-top: 60px;
+    height: 580px;
+}
+
+.contact img {
+    height: 130px;
+    width: 130px;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+.contact {
+    display: flex;
+
+}
+
+.contact1 {
+    margin-left: 30px;
+    margin-top: 60px;
+}
+.contact1 p{
+    font-size: 16px;
+}
+.h1 {
+    margin-left: 830px;
+    margin-top: -440px;
+    font-size: 17px;
+}
+
+#lienhe input {
+    margin-left: -80px;
+
+    margin-top: 13px;
+    width: 550px;
+    border: 1px solid #ddd;
+    height: 2.507em;
+
+}
+
+#lienhe {
+    margin-bottom: 100px;
+}
+
+#lienhe button {
+    margin-left: -80px;
+    text-decoration: none;
+    color: white;
+    background-color: #cf2e2e;
+    margin-top: 10px;
+    border: 1px solid white;
+    box-shadow: 1px 1px 1px 1px #ccc;
+    border-radius: 30px;
+    padding: 20px 260px 20px 260px;
+    transition: transform .5s, border .5s, background .5s, box-shadow .5s, opacity .5s, color .5s;
+    text-align: center;
+    font-size: 16px;
+
+
+}
+
+#lienhe button:hover {
+    background-color: #960421;
+}
+
+#loinhan {
+    padding-bottom: 80px;
+}
